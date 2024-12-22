@@ -168,6 +168,4 @@ A Convolutional Neural Network (CNN) model for classifying trash images into var
     ```
 5. **Submit a Pull Request** on GitHub.
 
-## License
 
-1. **MIT License**: This project is licensed under the MIT License. See the `LICENSE` file for details.
