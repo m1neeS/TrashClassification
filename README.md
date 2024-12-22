@@ -11,8 +11,9 @@ A Convolutional Neural Network (CNN) model for classifying trash images into var
 6. [Evaluation](#evaluation)
 7. [Usage](#usage)
 8. [Results](#results)
-9. [Contributing](#contributing)
-10. [License](#license)
+9. [Conclusion](#conclusion)
+10. [Contributing](#contributing)
+11. [License](#license)
 
 ## Project Overview
 
@@ -134,6 +135,22 @@ A Convolutional Neural Network (CNN) model for classifying trash images into var
 2. **Classification results**:
     - The model's performance on trash classification can be evaluated using metrics like accuracy and loss on the validation set.
 
+## Conclusion
+
+1. **Key Achievements**:
+    - This project successfully builds a CNN model that can classify images of trash into different categories such as glass, paper, metal, and plastic.
+    - By using image augmentation techniques and Dropout layers, the model is able to generalize better and reduce overfitting.
+    - The model training and results are tracked using Weights & Biases for efficient experiment monitoring.
+
+2. **Areas for Improvement**:
+    - **Data Imbalance**: The dataset may be imbalanced with certain categories having fewer images. Future improvements could involve handling this imbalance with techniques like oversampling or using weighted loss functions.
+    - **Model Tuning**: Experiment with different architectures or hyperparameters (e.g., deeper networks, different optimizers) to improve performance.
+    - **Transfer Learning**: Implement transfer learning by leveraging pre-trained models such as ResNet or MobileNet to boost accuracy.
+
+3. **Next Steps**:
+    - Further experiments can include testing on additional datasets or real-world trash images to evaluate the model's performance in diverse environments.
+    - Deploying the model into a web app or mobile application for practical use in waste management systems.
+
 ## Contributing
 
 1. **Fork the repository** to your GitHub account.
@@ -151,3 +168,6 @@ A Convolutional Neural Network (CNN) model for classifying trash images into var
     ```
 5. **Submit a Pull Request** on GitHub.
 
+## License
+
+1. **MIT License**: This project is licensed under the MIT License. See the `LICENSE` file for details.
