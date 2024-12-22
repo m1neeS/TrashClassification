@@ -1,4 +1,4 @@
-# Trash Classification using CNN
+# Trash Classification
 
 A Convolutional Neural Network (CNN) model for classifying trash images into various categories using the TrashNet dataset. This project utilizes TensorFlow and Keras for building the model and Weights & Biases (wandb) for tracking experiments.
 
