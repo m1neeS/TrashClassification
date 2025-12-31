@@ -27,7 +27,7 @@ A Convolutional Neural Network (CNN) model for classifying trash images into var
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your_username/TrashClassification.git
+    git clone https://github.com/m1nees/TrashClassification.git
     ```
 
 2. **Navigate to the project directory**:
